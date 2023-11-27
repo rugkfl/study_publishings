@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_selects</title>
+</head>
+<body>
+    <main>
+        <div>select</div>
+        <div>
+            <form action="./links.html" method="get">
+                <div>
+                    소유주 이름: <input type="text" name="owner_name" id="">
+                </div>   
+                <div>
+                    <label for="carcompanyname"> Choose car company: </label>
+                    <select name="car_company_name" id="carcompanyname">
+                        <option value="CAR_01">볼보</option> 
+                        <!-- 첫번 째 값이 보통 default 값-->
+                        <option value="CAR_02" selected>현대</option>
+                        <option value="CAR_03">Audi</option>
+                        <option value="CAR_04">포르쉐</option>
+                        <!-- 다른 값을 default값으로 하고 싶을 때 option태그 안에 selected라는 속성을 넣어준다 -->
+                        <!-- 혹은 내가 선택한 값을 그대로 가져오기 위해 selected를 넣어줘야 한다 -->
+                        <!-- option태그 안에 있는 value의 값은 개발자와 DB에 보여지는 값이고, option태그 사이에 있는 value값은 소비자에게 보여지는 값이다. -->
+
+                    </select> 
+                </div>
+                <button type="submit">보내기</button>
+                <button type="reset">초기화</button>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
