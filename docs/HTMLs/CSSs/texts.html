@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colors</title>
+    <style>
+        body {
+            background-color: darkolivegreen;
+        }
+        main {
+            border-style: dotted;
+            height: 350px;
+            width: 500;
+            background-color: burlywood;
+        }
+
+        h1 {
+            border-style: dotted;
+            color: darkgreen;
+            text-align: center; /* 글 정렬 */
+        }
+
+        div {
+            color: black;
+            text-indent: 40px; /* 본문 열 조정 */
+        }
+
+        span {
+            color: cornflowerblue;
+            border-style: dotted;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>TEXT FORMATTING</h1>
+        <div>
+            This text is styled with some of the text formatting properties. The heading uses the text-align,
+            text-transform, and color properties. 
+        </div>
+        <div>
+            This text is styled with some of the text formatting properties. The heading uses the text-align,
+            text-transform, and color properties. The paragraph is indented, aligned, and the space between characters
+            is specified. The underline is removed from this colored <span>"Try it Yourself"</span> link.
+        </div>
+    </main>
+</body>
+
+</html>
+<!-- CSS의 selector는 지정한 태그만 작동시키고 그 태그 안에 들어있는 태그는 기본적으로 작동시키지 않는다. -->
+<!-- text 색깔을 바꾸는 것은 color -->
+<!-- 따로 style태그를 써서 적용하는 것이 Internal CSS -->
