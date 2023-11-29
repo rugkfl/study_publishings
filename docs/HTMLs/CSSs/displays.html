@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/commons.css">
+    <link rel="stylesheet" href="../../css/displays.css">
+</head>
+
+<body>
+    <main>
+        <div>원래 부여된 display</div>
+        <div class="div_first">div element</div>
+        <span class="span_first">span element</span> 임의의 값
+        <hr>
+
+        <h1>The display Property</h1>
+
+        <h2>display: inline</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet
+            consequat. Aliquam erat volutpat. <span class="a">Aliquam</span> <span class="a">venenatis</span> gravida
+            nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+        <h2>display: inline-block</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet
+            consequat. Aliquam erat volutpat. <span class="b">Aliquam</span> <span class="b">venenatis</span> gravida
+            nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+        <h2>display: block</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet
+            consequat. Aliquam erat volutpat. <span class="c">Aliquam</span> <span class="c">venenatis</span> gravida
+            nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+    </main>
+</body>
+
+</html>
+<!-- display: block은 화면의 전체를 사용
+    display: inline은 일정 부분만 사용(컨텐츠의 종속/높이와 넓이를 바꿀 수 없다)
+    =>이것을 활용하여 기존의 속성을 다르게 바꿀 수 있다
+    div는 화면전체를 차지
+    span은 일정부분만 차지
+    inline은 내용물의 영향을 받을 뿐 데코의 영향을 받지 않는다/그래서 height가 작용하지 않음
+    그래서 inline-block를 활용하여 성격을 바꿔줘야 한다 => 재배치를 위해
+-->
