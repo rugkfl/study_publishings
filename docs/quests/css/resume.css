@@ -1,0 +1,44 @@
+
+main {
+    text-align: center;
+}
+.maintable {
+     border: solid 5px black;
+     width: 800px;
+}
+
+table {
+    height: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    word-spacing: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 30px;
+}
+td {
+    height: 30px;
+}
+
+.div_01 {
+    text-align: center;
+}
+
+.div_02 {
+    text-align: center;
+    word-spacing: 50px;
+}
+
+.div_03 {
+    text-align: right;
+}
+.textcolor {
+    background-color: lightgray;
+}

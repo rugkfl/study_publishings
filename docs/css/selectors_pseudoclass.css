@@ -1,0 +1,19 @@
+/* unvisited link (한번도 링크에 접속하지 않았을 시 나타나는 색깔*/
+a:link {
+  color: red;
+}
+
+/* visited link (한번이라도 링크에 접속했을 시 나타나는 색깔 */
+a:visited {
+  color: green;
+}
+
+/* mouse over link (마우스를 링크에 올려놓았을 시 나타나는 색깔 */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link (마우스를 올려놓고 있을 시 나타나는 색깔 */
+a:active {
+  color: blue;
+}
