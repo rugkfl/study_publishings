@@ -1,0 +1,20 @@
+.nav {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.nav-item {
+    background-color: chocolate;
+    padding: 5px;
+    }
+
+.nav-item > a {
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: green;
+}
+
